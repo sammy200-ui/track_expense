@@ -1,24 +1,21 @@
 # Expense Tracker
 
-A simple and intuitive web application to help you track your personal income and expenses. Built with vanilla JavaScript, HTML, and CSS, this application allows users to manage their transactions with ease.
+A simple and intuitive web application to help you track your personal income and expenses. Built with vanilla JavaScript, HTML, and CSS, this application allows users to manage their basic financial transactions.
 
 ## Features
 
-- 💰 Track both income and expenses
+- 💰 Track income and expenses
 - 📊 Real-time balance calculation
-- 🏷️ Categorize transactions
-- 📅 Add dates to transactions
-- 🔍 Search and filter functionality
-- ✏️ Edit existing transactions
-- ❌ Delete transactions
+- 🏷️ Categorize expenses (Food, Travel, Other)
+- 💵 Support for Indian Rupee (₹)
 - 📱 Responsive design for mobile devices
 
-### Prerequisites
+## Prerequisites
 
 - A modern web browser
 - No additional dependencies required
 
-### Installation
+## Installation
 
 1. Clone the repository
 ```bash
@@ -34,31 +31,36 @@ cd expense-tracker
 
 ## Usage
 
-1. **Adding Transactions**
-   - Fill in the description
-   - Enter the amount
-   - Select the date
-   - Choose a category (Income, Food, Transport, Entertainment, or Other)
-   - Click "Add Transaction"
+1. **Adding Income**
+   - Enter the income amount in the income input field
+   - Click "Add Income" button
 
-2. **Filtering Transactions**
-   - Search by description using the search box
-   - Filter by category using the dropdown menu
-   - Filter by date using the date picker
-   - Click "Filter" to apply multiple filters
+2. **Adding Expenses**
+   - Enter the expense amount
+   - Select a category (Food, Travel, or Other)
+   - Click "Add Expense" button
 
-3. **Managing Transactions**
-   - Edit a transaction by clicking the "edit" button
-   - Delete a transaction by clicking the "x" button
-   - View your current balance, total income, and total expenses at the top of the page
+3. **Viewing Summary**
+   - View your total income at the top
+   - View your total expenses
+   - See your total savings (Income - Expenses)
 
 ## Features in Detail
 
-- **Balance Overview**: Displays your current balance, total income, and total expenses
-- **Transaction Categories**: Organize transactions into categories (Income, Food, Transport, Entertainment, Other)
-- **Search & Filter**: Find specific transactions using multiple criteria
+- **Balance Overview**: Displays your total income, total expenses, and total savings
+- **Expense Categories**: Organize expenses into categories (Food, Travel, Other)
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices
-- **Local Storage**: [Note: Currently transactions are stored in memory - consider adding local storage in future updates]
+- **Simple Interface**: Easy-to-use interface for basic expense tracking
+
+## Future Enhancements
+
+- Implement local storage to persist data
+- Add data visualization (charts and graphs)
+- Add date tracking for transactions
+- Add search and filter functionality
+- Add edit and delete capabilities for transactions
+- Add multiple currency support
+- Implement budget limits and notifications
 
 ## Contributing
 
@@ -67,14 +69,6 @@ cd expense-tracker
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## Future Enhancements
-
-- Implement local storage to persist data
-- Add data visualization (charts and graphs)
-- Export transactions to CSV/PDF
-- Add multiple currency support
-- Implement budget limits and notifications
 
 ## License
 
